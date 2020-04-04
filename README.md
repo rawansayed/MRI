@@ -15,7 +15,7 @@
 <img src="4.png" width="600" height="300" /> <br/>
 
 ## Out Trajectory
-![one](one.gif) <br/>
+![one](1.gif) <br/>
 ![two](2.gif) <br/>
 ![three](3.gif) <br/>
 ![four](4.gif) <br/>
