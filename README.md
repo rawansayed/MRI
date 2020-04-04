@@ -6,7 +6,7 @@
 **Mohamed El-Moatasem**<br/>
 
 ## Welcome to our GUI
-<img src="1.png" width="500" height="500" /> <br/>
+<img src="1.png" width="600" height="500" /> <br/>
 **Step 1: Uploading Image** <br/>
 <img src="2.png" width="250" height="100" /> <br/>
 **Step 2: you can get FT-(Magnitude/Phase/Real/Imaginary) from Combobox next to Image** <br/>
