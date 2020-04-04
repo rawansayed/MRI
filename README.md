@@ -14,4 +14,5 @@
 **Graph Button for Showing Non-Uniformity of Magnetic Field 1.5 Tesla** <br/>
 <img src="4.png" width="600" height="300" /> <br/>
 
-
+## Out Trajectory
+<img src="1.mp4" width="100" height="100" /> <br/>
