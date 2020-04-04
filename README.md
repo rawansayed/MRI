@@ -15,4 +15,4 @@
 <img src="4.png" width="600" height="300" /> <br/>
 
 ## Out Trajectory
-<src="https://imgflip.com/embed/3ves19"> <br/>
+![Alt Text](1.gif) <br/>
