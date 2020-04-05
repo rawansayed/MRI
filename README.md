@@ -27,5 +27,6 @@
 **Graph Button for Showing Non-Uniformity of Magnetic Field 1.5 Tesla** <br/>
 <img src="4.png" width="600" height="300" /> <br/>
 
-## Instructions
-
+## Some Instructions to be able to run our Code
+** Install pyqt5** 
+** Install opengl**
