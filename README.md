@@ -5,6 +5,19 @@
 **Sara Adel**<br/>
 **Mohamed El-Moatasem**<br/>
 
+## Part One
+**- Create a function that rotates the bulk magnetization vector.**
+**- Plot the bulk magnetization's trajectory and generate a figure representing the results.**
+## Our Trajectory
+![one](1.gif) <br/>
+![two](2.gif) <br/>
+![three](3.gif) <br/>
+![four](4.gif) <br/>
+![five](5.gif) <br/>
+
+## Part Two 
+**- Load images; show the figures. Calculate the Fourier transform of the images and plot it in the K-space domain.**
+**- Define a function that simulates the non-uniformity effect; where its effect is imposed in the axial (z), but no radial (x or y) dependence on the magnetic field strength. Make a plot of Bz(z).**
 ## Welcome to our GUI
 <img src="1.png" width="600" height="500" /> <br/>
 **Step 1: Uploading Image** <br/>
@@ -14,9 +27,4 @@
 **Graph Button for Showing Non-Uniformity of Magnetic Field 1.5 Tesla** <br/>
 <img src="4.png" width="600" height="300" /> <br/>
 
-## Out Trajectory
-![one](1.gif) <br/>
-![two](2.gif) <br/>
-![three](3.gif) <br/>
-![four](4.gif) <br/>
-![five](5.gif) <br/>
+
