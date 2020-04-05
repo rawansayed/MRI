@@ -28,5 +28,5 @@
 <img src="4.png" width="600" height="300" /> <br/>
 
 ## Some Instructions to be able to run our Code
-** Install pyqt5** <br/>
-** Install opengl**
+**[Install PyQt5](https://pypi.org/project/PyQt5/)**  <br/>
+**Install opengl**
