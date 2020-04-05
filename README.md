@@ -17,7 +17,7 @@
 
 ## Part Two 
 **- Load images; show the figures. Calculate the Fourier transform of the images and plot it in the K-space domain.** <br/>
-**- Define a function that simulates the non-uniformity effect; where its effect is imposed in the axial (z), but no radial (x or y) dependence on the magnetic field strength. Make a plot of Bz(z).** <br/>
+**- Define a function that simulates the non-uniformity effect; where its effect is imposed in the axial (z), but no radial (x or y)  dependence on the magnetic field strength. Make a plot of Bz(z).** <br/>
 ## Welcome to our GUI
 <img src="1.png" width="600" height="500" /> <br/>
 **Step 1: Uploading Image** <br/>
