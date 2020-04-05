@@ -6,6 +6,7 @@
 **Mohamed El-Moatasem**<br/>
 
 ## Part One
+### Task Statment
 **- Create a function that rotates the bulk magnetization vector.** <br/>
 **- Plot the bulk magnetization's trajectory and generate a figure representing the results.** <br/>
 ## Bulk Magnetization's Trajectory
@@ -17,6 +18,7 @@
 ## Summary about our part one implementation 
 
 ## Part Two 
+### Task Statment
 **- Load images; show the figures. Calculate the Fourier transform of the images and plot it in the K-space domain.** <br/>
 **- Define a function that simulates the non-uniformity effect; where its effect is imposed in the axial (z), but no radial (x or y)  dependence on the magnetic field strength. Make a plot of Bz(z).** <br/>
 ## Welcome to our GUI
