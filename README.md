@@ -15,6 +15,10 @@
 ![three](3.gif) <br/>
 ![four](4.gif) <br/>
 ![five](5.gif) <br/>
+![Six](6.gif) <br/>
+![Seven](7.gif) <br/>
+![Eight](8.gif) <br/>
+![Nine](9.gif) <br/>
 ## Summary about our part one implementation 
 
 ## Part Two 
