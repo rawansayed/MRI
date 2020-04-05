@@ -29,14 +29,14 @@
 <img src="4.png" width="600" height="300" /> <br/>
 ## Summary about our part two implementation 
 **We use QT-Designer to create the above GUI.** <br/>
-<img src="gui.png" width="400" height="300" /> <br/>
+<img src="gui.png" width="500" height="300" /> <br/>
 **Then we implement Functions of** <br/>
 ***Uploading image*** <br/>
-<img src="5.png" width="400" height="150" /> <br/>
+<img src="5.png" width="500" height="120" /> <br/>
 ***Getting Fourier Transform*** <br/>
-<img src="6.png" width="400" height="200" /> <br/>
+<img src="6.png" width="500" height="200" /> <br/>
 ***Graph Non-Uniformity of Magnetic Field 1.5 Tesla*** <br/>
-<img src="7.png" width="400" height="300" /> <br/>
+<img src="7.png" width="500" height="300" /> <br/>
 
 ## Some Instructions to be able to run our Code
 **[Install PyQt5](https://pypi.org/project/PyQt5/)**  <br/>
