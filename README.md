@@ -1,4 +1,4 @@
-## Task 1
+## MRI_Task 1
 **Team Members:**<br/>
 **Remon Alber**<br/>
 **Rawan Sayed Badr**<br/>
