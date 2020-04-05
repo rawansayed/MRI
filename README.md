@@ -1,7 +1,7 @@
 ## MRI_Task 1
 **Team Members:**<br/>
 **Remon Alber**<br/>
-**Rawan Sayed Badr**<br/>
+**Rawan Sayed**<br/>
 **Sara Adel**<br/>
 **Mohamed El-Moatasem**<br/>
 
@@ -10,12 +10,15 @@
 **- Create a function that rotates the bulk magnetization vector.** <br/>
 **- Plot the bulk magnetization's trajectory and generate a figure representing the results.** <br/>
 ## Bulk Magnetization's Trajectory
+**Case 1** <br/>
 ![one](1.gif) <br/>
 ![two](2.gif) <br/>
 ![three](3.gif) <br/>
+**Case 2** <br/>
 ![four](4.gif) <br/>
 ![five](5.gif) <br/>
 ![Six](6.gif) <br/>
+**Case 3** <br/>
 ![Seven](7.gif) <br/>
 ![Eight](8.gif) <br/>
 ![Nine](9.gif) <br/>
