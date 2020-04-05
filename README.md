@@ -30,12 +30,12 @@
 ## Summary about our part two implementation 
 **We use QT-Designer to create the above GUI.** <br/>
 <img src="gui.png" width="500" height="300" /> <br/>
-**Then we implement Functions of** <br/>
-***Uploading image*** <br/>
+**Then we implement Functions of:** <br/>
+***1-Uploading image*** <br/>
 <img src="5.png" width="500" height="120" /> <br/>
-***Getting Fourier Transform*** <br/>
+***2-Getting Fourier Transform*** <br/>
 <img src="6.png" width="500" height="200" /> <br/>
-***Graph Non-Uniformity of Magnetic Field 1.5 Tesla*** <br/>
+***3-Graph the non-uniformity effect of Magnetic Field 1.5 Tesla*** <br/>
 <img src="7.png" width="500" height="300" /> <br/>
 
 ## Some Instructions to be able to run our Code
