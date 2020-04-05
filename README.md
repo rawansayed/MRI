@@ -14,6 +14,7 @@
 ![three](3.gif) <br/>
 ![four](4.gif) <br/>
 ![five](5.gif) <br/>
+## Summary about our part one implementation 
 
 ## Part Two 
 **- Load images; show the figures. Calculate the Fourier transform of the images and plot it in the K-space domain.** <br/>
@@ -26,6 +27,16 @@
 <img src="3.png" width="600" height="300" /> <br/>
 **Graph Button for Showing Non-Uniformity of Magnetic Field 1.5 Tesla** <br/>
 <img src="4.png" width="600" height="300" /> <br/>
+## Summary about our part two implementation 
+**We use QT-Designer to create the above GUI.** <br/>
+<img src="gui.png" width="300" height="300" /> <br/>
+**Then we implement Functions of** <br/>
+***Uploading image*** <br/>
+<img src="5.png" width="300" height="300" /> <br/>
+***Getting Fourier Transform*** <br/>
+<img src="6.png" width="300" height="300" /> <br/>
+***Graph Non-Uniformity of Magnetic Field 1.5 Tesla*** <br/>
+<img src="7.png" width="300" height="300" /> <br/>
 
 ## Some Instructions to be able to run our Code
 **[Install PyQt5](https://pypi.org/project/PyQt5/)**  <br/>
