@@ -29,4 +29,4 @@
 
 ## Some Instructions to be able to run our Code
 **[Install PyQt5](https://pypi.org/project/PyQt5/)**  <br/>
-**Install opengl**
+**[Install OpenGl](https://download.cnet.com/Apple-OpenGL/3000-2070_4-395.html)**
