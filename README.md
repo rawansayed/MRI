@@ -8,7 +8,7 @@
 ## Part One
 **- Create a function that rotates the bulk magnetization vector.** <br/>
 **- Plot the bulk magnetization's trajectory and generate a figure representing the results.** <br/>
-## Our Trajectory
+## Bulk Magnetization's Trajectory
 ![one](1.gif) <br/>
 ![two](2.gif) <br/>
 ![three](3.gif) <br/>
