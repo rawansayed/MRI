@@ -25,9 +25,9 @@
 
 ``` ./simulation angle T1 T2 ```
 
-but you replace angle,T1 and T2  parameters by any valid values,then the window will appear and you can see the simultion,and to repeat the Excitation/Relaxations proccess just press on (__a__) button in the keyboard this will give RF pulse with the same angle.** <br/>
+**but you replace angle,T1 and T2  parameters by any valid values,then the window will appear and you can see the simultion,and to repeat the Excitation/Relaxations proccess just press on (__a__) button in the keyboard this will give RF pulse with the same angle.** <br/>
 
-## We attached some GIFS of the simulation to make it easy and clear to see the output. 
+## We attached some GIFs for our simulation to make it easy and clear to see our output. 
 
 **Case 1 Parameters:** <br/>
 * Angle=90.
