@@ -15,19 +15,25 @@
 **While that Our XY component ddecays in magnitude by a rate equal to: ``` Mxy = Mo * exp(-time/T2)```** <br/>
 ## Bulk Magnetization's Trajectory
 ### Using OpenGl
-**We used openGl library which we learn it in computer graphics course this semester to simulate the bloch equations.** <br/>
-**[Install OpenGl](https://download.cnet.com/Apple-OpenGL/3000-2070_4-395.html)** <br/>
+WE used openGl library which we learn it in computer graphics course this semester to simulate the bloch equations.
 
-**After installing openGl to run the code you have to run ```simulation.c``` file in part1 folder by writing this command in terminal** <br/>
-``` gcc -o simulation simulation.c -lGL -lGLU -lglut -lm ```
-
-**this command will build file named _simulation_ ,and to open this file write in terminal** <br/> 
+To run the code you have to  write this command in terminal in the part 1 directory .
 
 ``` ./simulation angle T1 T2 ```
 
-**but you replace angle,T1 and T2  parameters by any valid values,then the window will appear and you can see the simultion,and to repeat the Excitation/Relaxations proccess just press on (__a__) button in the keyboard this will give RF pulse with the same angle.** <br/>
+but you have to replace angle,T1 and T2  parameters by any valid values,then the window will appear and you cane see the simultion,and to repeat the excitation-relations proccess just press on (__a__) button in the keyboard this will give RF pulse witn the same angle.
 
-## We attached some GIFs for our simulation to make it easy and clear to see our output. 
+
+### For extra check you have to install openGL library
+
+**[Install OpenGl](https://download.cnet.com/Apple-OpenGL/3000-2070_4-395.html)**
+
+After installing openGl to run the code you have to run ```simulation.c``` file in part1 folder by writing this command in terminal
+
+``` gcc -o simulation simulation.c -lGL -lGLU -lglut -lm ```
+
+this command will build file named _simulation_  ,then, run this file. 
+## We attached some GIFS of the simulation to make it easy and clear to see the output. 
 
 **Case 1 Parameters:** <br/>
 * Angle=90.
@@ -51,23 +57,22 @@
 ![Eight](images/8.gif) <br/>
 ![Nine](images/9.gif) <br/>
 ### Using Python
-**Using matplot library ,and to see this output you have to run  ```simulation.py``` file in part 1 folder.** <br/>
-**The magnetization vector is represented solid black line and it's compomnent in the XY-plane is in dashed black line.** <br/>
+Using matplot library ,and to see this output you have to run  ```simulation.py``` file in part 1 folder.
+The magnetization vector is represented solid black line and it's compomnent in the XY-plane is in dashed black line.
 
 **Parameters:** <br/>
 * Angle=90.
 * T1=200. <br/>
-* T2=100. <br/>
+* T2=200. <br/>
 ![Python](images/python.gif) <br/>
 ## Part Two 
 ### Task Statment
 **- Load images; show the figures. Calculate the Fourier transform of the images and plot it in the K-space domain.** <br/>
 **- Define a function that simulates the non-uniformity effect; where its effect is imposed in the axial (z), but no radial (x or y)  dependence on the magnetic field strength. Make a plot of Bz(z).** <br/>
 ## Summary about our part two implementation 
-**In this part we use pyqt5 libarary to make our GUI**
-**[Install PyQt5](https://pypi.org/project/PyQt5/)**  <br/>
-**To run our GUI you have to run ```main.py``` file in part 2 folder.** <br/>
-**We used the fourier functions supported by the Scipy library to seperate the components of a given picture and display any one of them according to the choice of the user.** <br/>
+** In this part we uset pyqt5 libarary to make GUI
+**[Install PyQt5](https://pypi.org/project/PyQt5/)**  <br/>,to run the gui you have to run ```main.py``` file in part 2 folder. 
+We used the fourier functions supported by the Scipy library to seperate the components of a given picture and display any one of them according to the choice of the user.** <br/>
 **We used QT-Designer to create our GUI.** <br/>
 <img src="images/gui.png" width="500" height="300" /> <br/>
 **Then we implement Functions of:** <br/>
