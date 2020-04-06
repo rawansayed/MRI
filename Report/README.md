@@ -33,6 +33,9 @@
 ![Eight](8.gif) <br/>
 ![Nine](9.gif) <br/>
 ### Using Python
+**Parameters:** <br/>
+* Angle=90.
+* T1=200. <br/>
 ![Python](python.gif) <br/>
 ## Summary about our part one implementation 
 **We used the Bloch equations as instructed to implemnet the function that could simulate the behaviour of the magnetization vector. In our simulation the magnetization vector is represented in a red line and it's compomnent in the XY-plane is in yellow line.** <br/>
