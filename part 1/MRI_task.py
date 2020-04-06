@@ -1,7 +1,6 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-
+import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import math
 
@@ -21,15 +20,18 @@ def data_gen(num):
             print(pulse_ang)
         else:
             pulse_ang = 510*np.pi/(6*180)
+        vector2 = [[3*np.exp(-num/120)*np.cos(rotating_ang)],[3*np.exp(-num/120)*np.sin(rotating_ang)],[0]]
     else:
         
         rotating_ang = 0
         pulse_ang = (85-(num-1440))*np.pi/180
+        vector2 = [[3*np.cos(pulse_ang)*np.cos(rotating_ang)],[3*np.cos(pulse_ang)*np.sin(rotating_ang)],[0]]
     vector = [[3*np.cos(pulse_ang)*np.cos(rotating_ang)],[3*np.cos(pulse_ang)*np.sin(rotating_ang)],[3*np.sin(pulse_ang)]] 
     vx, vy, vz = vector
+    vx2, vy2, vz2 = vector2
     ax.cla()
     ax.quiver(0, 0, 0, vx, vy, vz, pivot="tail", color="black", arrow_length_ratio=0.1)
-    ax.quiver(0, 0, 0, vx, vy, 0, pivot="tail", color="black",
+    ax.quiver(0, 0, 0, vx2, vy2, vz2, pivot="tail", color="black",
             linestyle="dashed", arrow_length_ratio=0.1)
     if num == 1114:
         flag = False
@@ -55,7 +57,7 @@ def data_gen(num):
     x, y, z = np.zeros((3,3))
     u, v, w = np.array([[5,0,0],[0,5,0],[0,0,5]])
     ax.quiver(x,y,z,u,v,w,arrow_length_ratio=0.1)
-    ax.view_init(elev=35, azim=190)
+    ax.view_init(elev=45, azim=190)
     if num == 0:
         flag = True
         flag2 = True
