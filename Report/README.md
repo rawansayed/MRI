@@ -11,24 +11,21 @@
 **- Plot the bulk magnetization's trajectory and generate a figure representing the results.** <br/>
 ## Bulk Magnetization's Trajectory
 ### Using OpenGl
-**Case 1** <br/>
-**Parameters:** <br/>
+**Case 1 Parameters:** <br/>
 * Angle=90.
 * T1=500.
 * T2=200. <br/>
 ![one](1.gif) <br/>
 ![two](2.gif) <br/>
 ![three](3.gif) <br/>
-**Case 2** <br/>
-**Parameters:** <br/>
+**Case 2 Parameters:** <br/>
 * Angle=90.
 * T1=1000.
 * T2=500. <br/>
 ![four](4.gif) <br/>
 ![five](5.gif) <br/>
 ![Six](6.gif) <br/>
-**Case 3** <br/>
-**Parameters:** <br/>
+**Case 3 Parameters:** <br/>
 * Angle=75.
 * T1=500.
 * T2=200. <br/>
