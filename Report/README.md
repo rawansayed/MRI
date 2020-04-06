@@ -33,7 +33,7 @@
 ![Eight](8.gif) <br/>
 ![Nine](9.gif) <br/>
 ### Using Python
-
+![Python](python.gif) <br/>
 ## Summary about our part one implementation 
 **We used the Bloch equations as instructed to implemnet the function that could simulate the behaviour of the magnetization vector. In our simulation the magnetization vector is represented in a red line and it's compomnent in the XY-plane is in yellow line.** <br/>
 **When an RF pulse is given, Our vector rotates to the XY-plane by the given rotating angle while maintaining it's precission, when the pulse is removed the vector is tends to return to it's original directon, So it takes the Helix-path represented by the gray spiral, making the magnetization z component increases by a rate equal to: ``` Mz = Mo(1-exp(-time/T1))```** <br/>
