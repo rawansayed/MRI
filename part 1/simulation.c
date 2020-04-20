@@ -5,7 +5,7 @@
 
 int moving, startx, starty;
 static int pos_x=2,pos_y=2,pos_z=1;
-static int angles[]={0.0,-40.0,30.0,0.0};
+static int angles[]={0.0,-40.0,30.0,0.0,0.0,0.0};
 
 float m=0;
 float a=0;
@@ -158,22 +158,23 @@ void display(void)
 
 
 
+  glPushMatrix();
   glRotatef((GLfloat)angles[0],0.0,1.0,0.0);
-
   glPushMatrix();
   glTranslatef(x_y,0,0);
-  glColor3f(0,1,0);
+  glColor3f(1,1,.2);
   glutWireSphere(.1,20,20);
   glPopMatrix();  
 
 
   glBegin(GL_LINES);
   glPushMatrix();
-  glColor3f(0,1,0);
+  glColor3f(1,1,.2);
   glVertex3d(0,0,0);
   glVertex3d(x_y,0,0);
   glPopMatrix();
   glEnd();
+
 
 
   glRotatef((GLfloat)angle3,0.0,0.0,1.0);
@@ -193,6 +194,50 @@ void display(void)
   glVertex3d(0,2,0);
   glPopMatrix();
   glEnd();
+glPopMatrix();
+
+glPushMatrix();
+  glRotatef((GLfloat)angles[4],0.0,1.0,0.0);
+  glRotatef((GLfloat)angle3,0.0,0.0,1.0);
+  
+
+  glPushMatrix();
+  glTranslatef(0,2,0);
+  glColor3f(0,1,0);
+  glutWireSphere(.1,20,20);
+  glPopMatrix();  
+
+
+  glBegin(GL_LINES);
+  glPushMatrix();
+  glColor3f(0,1,0);
+  glVertex3d(0,0,0);
+  glVertex3d(0,2,0);
+  glPopMatrix();
+  glEnd();
+glPopMatrix();
+
+glPushMatrix();
+  glRotatef((GLfloat)angles[5],0.0,1.0,0.0);
+  glRotatef((GLfloat)angle3,0.0,0.0,1.0);
+  
+
+  glPushMatrix();
+  glTranslatef(0,2,0);
+  glColor3f(0,0,1);
+  glutWireSphere(.1,20,20);
+  glPopMatrix();  
+
+
+  glBegin(GL_LINES);
+  glPushMatrix();
+  glColor3f(0,0,1);
+  glVertex3d(0,0,0);
+  glVertex3d(0,2,0);
+  glPopMatrix();
+  glEnd();
+glPopMatrix();
+
 
  
 
@@ -260,6 +305,10 @@ void timer(int x)
 
     angles[0]-=5;
     angles[0]%=360;
+    angles[4]-=7;
+    angles[4]%=360;
+    angles[5]-=3;
+    angles[5]%=360;
     time+=10.0;
     decay(time);
 
