@@ -1,10 +1,11 @@
-## MRI_Task 1
+## MRI_Tasks
 **Team Members:**<br/>
 **Remon Alber SEC:1 BN:31**<br/>
 **Rawan Sayed SEC:1 BN:30**<br/>
 **Sara Adel SEC:1 BN:35**<br/>
 **Mohammed Almotasem SEC:2 BN:18**<br/>
-
+ 
+## MRI_Task 1
 ## Part One
 ### Task Statment
 **- Create a function that rotates the bulk magnetization vector.** <br/>
@@ -62,7 +63,7 @@
 * T2=100. <br/>
 ![Python](images/python.gif) <br/>
 ## Part Two 
-### Task Statment
+### Task 1 Statment
 **- Load images; show the figures. Calculate the Fourier transform of the images and plot it in the K-space domain.** <br/>
 **- Define a function that simulates the non-uniformity effect; where its effect is imposed in the axial (z), but no radial (x or y)  dependence on the magnetic field strength. Make a plot of Bz(z).** <br/>
 ## Summary about our part two implementation 
@@ -88,8 +89,20 @@
 <img src="images/one.png" width="600" height="300" /> <br/>
 <img src="images/two.png" width="600" height="300" /> <br/>
 <img src="images/three.png" width="600" height="300" /> <br/>
-**Graph Button for Showing Non-Uniformity of Magnetic Field 1.5 Tesla** <br/>
+**Graph1 Button for Showing Non-Uniformity of Magnetic Field 1.5 Tesla** <br/>
 <img src="images/4.png" width="600" height="300" /> <br/>
 
+## MRI_Task 2
+**Part 1**: K-space already implemented in the previous task <br/>
+**Part 2**: After adding the Non-uniformity effect to the static Magnetic field that was already calculated. <br/>
+First,we create some figures to show the effect of the non-uniform magnetic field
 
+<img src="images/freq.png" width="600" height="300" /> <br/>
+<img src="images/freq_diff.png" width="600" height="300" /> <br/>
+<img src="images/field.png" width="600" height="300" /> <br/>
+Second,in our simulation with openGl we add three different vectors(red,blue,green) each rotate with diffrent freq,and the net magnetization vector in x-y plane represented by yellow color   
+![opengl](images/task2.gif)
+
+Also,in the simulation using python we did the same thing adding three vectors with different freq and the net magnetization vector in x-y plane represented by dashed vector
+![python](images/task2.1.gif)
 

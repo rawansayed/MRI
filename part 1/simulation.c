@@ -90,11 +90,11 @@ void display(void)
   pyramid(.1,.1,.1,0,0,2.5,90,0,0);
   pyramid(.1,.1,.1,0,0,-2.5,-90,0,00);
   
-  glPushMatrix();
-  glColor3f(0,0,1);
-  glRotatef(90.0,1,0,0);
-  glutWireSphere(2,20,20);
-  glPopMatrix();  
+  // glPushMatrix();
+  // glColor3f(0,0,1);
+  // glRotatef(90.0,1,0,0);
+  // glutWireSphere(2,20,20);
+  // glPopMatrix();  
   
 
 
