@@ -100,7 +100,7 @@
 ## Welcome to our GUI
 **Same as Task 1 just we added Graph2 button** <br/>
 **Graph2 Button for Showing Angular Frequency WRT Non-Uniformity of Magnetic Field 1.5 Tesla** <br/>
-<img src="images/graph2.png" width="600" height="300" /> <br/>
+<img src="images2/graph2.png" width="600" height="300" /> <br/>
 
 **Part 2: b) Plot the Bulk Magnetization Trajectory and generate a figure representing the result** <br/>
 ## We attached some GIFs for our simulation to make it easy and clear to see our output. 
