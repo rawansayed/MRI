@@ -108,14 +108,14 @@ Also,in the simulation using python we did the same thing adding three vectors w
 
 ## MRI_Task 3
 First we create function to create images with the desired size and colors
-<img src="images/task31.JPG" />
+<img src="images/task31.jpg" />
 
 Then, we start to create a function to create a phantom,this function takes an image ,(T1,t2) for fisrt tissue _oil_ and (T1,T2) for the other tissue _water_ and return a phantom which is 3d array with the values of the photo intensity ,T1 mapped values and T2 mapped values
-<img src="images/task32.JPG" />
+<img src="images/task32.jpg" />
 Then,we implement a function which  rotate a vector around any axis with any desired angle to simulate the RF pulse
-<img src="images/task33.JPG" />
+<img src="images/task33.jpg" />
 
 Then,we make 16*16 array each element is [0,0,1] which represent the spins.
 After that we start to simulate the spin echo sequence using two outer for loob to iterate over the k-space and two inner two iterate over the phantom and the spins , after apply RF pulse and add gradient in Y and X direction we summate all spines and fill one row in K-space and start the loop again    
-<img src="images/task34.JPG" />
+<img src="images/task34.jpg" />
 
